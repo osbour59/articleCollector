@@ -1,0 +1,32 @@
+{
+  "name": "article_collector",
+  "version": "1.0.0",
+  "description": "Program used to aggregate and collect articles for a user.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osbour59/articleCollector.git"
+  },
+  "keywords": [
+    "article",
+    "news",
+    "rss"
+  ],
+  "author": "Kyle Osbourne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/osbour59/articleCollector/issues"
+  },
+  "homepage": "https://github.com/osbour59/articleCollector#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.4",
+    "pug": "^3.0.2",
+    "rss": "^1.2.2"
+  }
+}
